@@ -1,0 +1,70 @@
+.btn-group {
+    width: 100%;
+    font-family: inherit;
+}
+
+.btn-group button {
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid black;
+    font-family: pristina;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 8px;
+    float: left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #696969;
+}
+
+.btn-group {
+    font-family: pristina;
+}
+
+.dropbtn {
+    background-color: #000000;
+    font-family: pristina;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 8px;
+    float: left;
+}
+
+.dropdown-content {
+  display: none;
+  align-self: right;
+  float: right;
+  background-color: #696969;
+  min-width: 332px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #dddddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #696969;} 

@@ -1,0 +1,30 @@
+.btn-group {
+    width: 100%;
+    font-family: inherit;
+}
+
+.btn-group button {
+    background-color: #000000;
+    border: 1px solid black;
+    font-family: pristina;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 8px;
+    float: left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #696969;
+}
